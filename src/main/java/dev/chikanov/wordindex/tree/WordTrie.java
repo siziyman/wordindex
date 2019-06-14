@@ -10,7 +10,7 @@ import java.util.Set;
  */
 public class WordTrie {
 
-    private TrieNode root;
+    private final TrieNode root;
 
     public WordTrie() {
         this.root = new TrieNode();

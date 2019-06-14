@@ -66,10 +66,6 @@ public class TrieNode {
         return (children == null || children.isEmpty());
     }
 
-    public TrieNode getToChild(char key) {
-        return children.get(key);
-    }
-
     TrieNode appendChild(char key) {
         if (children == null) {
             children = new HashMap<>();
